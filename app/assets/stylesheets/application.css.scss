@@ -129,7 +129,12 @@ video {
 }
 
 .navbar-nav>li>a {
-  color: #3498db;
+  color: #fff;
+  text-transform: uppercase;
+  &:hover {
+    background-color: transparent;
+    font-weight:300;
+  }
 }
 
 a.btn.btn-default {

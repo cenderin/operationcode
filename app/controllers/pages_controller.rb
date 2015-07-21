@@ -2,7 +2,22 @@ class PagesController < ApplicationController
   def about
   end
 
+  def board
+  end
+
+  def codeschools
+  end
+
+  def contact
+  end
+
+  def contributors
+  end
+
   def events
+  end
+
+  def faqs
   end
 
   def founder
@@ -11,19 +26,7 @@ class PagesController < ApplicationController
   def hackathons
   end
 
-  def contact
-  end
-
-  def codeschools
-  end
-
-  def contributors
-  end
-
-  def faqs
-  end
-
-  def online
+  def hello
   end
 
   def media
@@ -35,9 +38,12 @@ class PagesController < ApplicationController
   def mission
   end
 
+  def online
+  end
+
   def press
   end
-  
+
   def privacy
   end
 
@@ -54,8 +60,5 @@ class PagesController < ApplicationController
   end
 
   def team
-  end
-
-  def hello
   end
 end
